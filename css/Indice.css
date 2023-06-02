@@ -1,0 +1,74 @@
+:root {
+    --primary: #058240;
+    --secundary: #87C159;
+    --info:#ADCACB;
+    --contrast: #FEE3A2; 
+    --lines: #F3C301;
+}
+
+/* :root {
+  --primary: #469597;
+  --secundary: #5BA199;
+  --info:#BBC6C8;
+  --contrast: #E5E3E4; 
+  --lines: #DDBEAA;
+} */
+
+/* :root {
+  --primary: #02315E;
+  --secundary: #00457E;
+  --info:#2F70AF;
+  --contrast: #B9848C; 
+  --lines: #806491;
+} */
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: var(--info);
+    background: url(/assets/Images/gimnasio.png) center no-repeat fixed;
+    background-size: cover;
+    
+    
+}
+
+div {
+    padding: 10px 0px 10px 0px;
+    background-color:var(#058240);
+    text-align: center;
+}
+
+  .flex {
+    height: 400px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap; 
+    flex-flow: row wrap;
+
+}
+
+.flex > div {
+    width: 100px;
+    margin: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: var(--contrast);
+    border: 3px solid var(--primary);
+}
+
+h1 {
+  background: var(--primary);
+  border: 3px solid #F3C301;
+  color: var(--contrast);
+  display: inline-block;
+  padding: 10px;
+  margin: 0%;
+  
+}
+
+a{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: none;
+  color:rgb(15, 113, 108)
+}

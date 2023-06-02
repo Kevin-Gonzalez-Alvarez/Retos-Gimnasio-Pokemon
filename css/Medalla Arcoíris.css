@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: var(--info);
+    background: url(/assets/Images/arcoiris.jpg) center no-repeat fixed;
+    background-size: cover;
+    
+}
+
+/* .flex {
+    height: 400px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap; 
+    flex-flow: row wrap;
+
+} */
+
+h1 {
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    background-attachment: fixed;
+    background-color: #33a171;
+    border: gold solid 2px;
+    opacity: .7;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+li{
+    line-height: 1.5;
+    text-align: center;
+    background-color: rgb(23, 117, 56);
+    color: white;
+    background-color: #33a171;
+    font-weight: bold;
+    opacity: .7;
+    border: gold solid 2px;
+    padding: 1px 1px 1px 1px;
+    display: inline-block;
+    margin: 0 auto;
+    
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.button {
+    padding: 10px 20px;
+    background: url(/assets/Images/arcoiris-boton.jpg);
+    background-size: cover;
+    background-color: #51ae45;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px
+}

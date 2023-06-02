@@ -1,0 +1,92 @@
+body{
+    background: url(/assets/Images/escoger.jpeg) center no-repeat fixed;
+    background-size: cover;
+}
+
+#Squirtle,#squir{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: var(--primary);
+    border: 3px solid #1d5f17;
+    background-color: rgb(9, 198, 198);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin: 0%;
+    opacity: .9;
+  }
+
+#Bulbasaur,#bul{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: var(--primary);
+    border: 3px solid #F3C301;
+    background-color: rgb(22, 122, 37);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 10px;
+    margin: 0%;
+    opacity: .9;
+}
+
+#Charmander,#char{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: var(--primary);
+    border: 3px solid #01f3df;
+    background-color: rgb(182, 165, 34);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin: 0%;
+    opacity: .9;
+}
+
+#blue{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 20px;
+    background-color: #45aea0;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    opacity: .9;
+}
+
+#red{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 20px;
+    background-color: #b8ac26;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    opacity: .9;
+}
+img{
+    align-items: center;
+    width: 150px; 
+    height: auto; 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #51ae45;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px
+}

@@ -1,0 +1,21 @@
+body{
+    background: url(/assets/Images/old-paper.jpeg) center no-repeat fixed;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #42b3c6;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px
+}

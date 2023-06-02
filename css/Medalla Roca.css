@@ -1,0 +1,59 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 20px;
+    background: url(/assets/Images/roca.webp) center no-repeat fixed;
+    background-size: cover;
+  }
+
+
+
+  
+  h1 {
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    background-attachment: fixed;
+    background-color: #33a171;
+    border: gold solid 2px;
+    opacity: .7;
+  }
+  
+  p {
+    color: #ffffff;
+    line-height: 1.5;
+    text-align: justify;
+    background-color: rgb(23, 117, 56);
+    color: white;
+    background-color: #33a171;
+    font-weight: bold;
+    opacity: .7;
+    border: gold solid 2px;
+   
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .button {
+    padding: 10px 20px;
+    background-color: #333d1b;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+
+
+  

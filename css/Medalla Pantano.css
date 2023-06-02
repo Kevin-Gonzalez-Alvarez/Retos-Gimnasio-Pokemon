@@ -1,0 +1,61 @@
+body{
+    background-attachment: fixed;
+    background-color: #2bf6d4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 2px solid black;
+    padding: 8px;
+  }
+
+
+#perros{
+    background-attachment: fixed;
+    background-color: beige;
+}
+
+#gatos{
+    background-attachment: fixed;
+    background-color:darkkhaki
+}
+
+#aves{
+    background-attachment: fixed;
+    background-color: thistle;
+}
+  
+  table th {
+    color: white;
+    background-color: #33a171;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+img{
+    align-items: center;
+    width: 150px; 
+    height: auto; 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #c9c943;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px
+}
